@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Stock Redirect Button
+// @name         Screener to groww stock redirector button
 // @namespace    Violentmonkey Scripts
 // @version      1.0
 // @description  Adds a button to redirect from Screener.in to Groww.in for the stock being viewed
@@ -7,6 +7,7 @@
 // @match        https://www.screener.in/company/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=screener.in
 // @grant        none
+// @license      GPLv3
 // ==/UserScript==
 
 (function() {
