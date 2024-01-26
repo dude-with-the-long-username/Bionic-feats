@@ -13,13 +13,14 @@
     'use strict';
     // Create a button
     var redirectButton = document.createElement("button");
-    redirectButton.innerHTML = "Open on Groww";
+    redirectButton.innerHTML = "Groww";
     redirectButton.style.position = "fixed";
-    redirectButton.style.top = "10px";
-    redirectButton.style.right = "10px";
-    redirectButton.style.zIndex = "9999";
+    redirectButton.style.top = "calc(100% - 61.8vh)";
+    // redirectButton.style.right = "10px";
+    redirectButton.style.left = "0px";
+    redirectButton.style.zIndex = "10000";
     var screenerPath = window.location.href.split("/");
-    var stockSymbol = screenerPath[screenerPath.length - 3];
+    var stockSymbol = screenerPath[screenerPath.length - 3];  // 3rd last entry in array
     redirectButton.addEventListener ("click", function() {
         window.location.href = "https://groww.in/search?q=" + stockSymbol;
     });
