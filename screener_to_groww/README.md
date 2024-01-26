@@ -1,3 +1,5 @@
 # screener_to_groww
 
-Open corresponding stock (opened in screener.in) on groww.in.
+Adds a button on screener, to open corresponding stock on Groww.
+
+![](./screener_to_groww.gif)
