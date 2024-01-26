@@ -6,7 +6,10 @@
 ### How to run
 
 - Go to the individual folder of the script you want, follow the link & install the link from [greasyfork](https://greasyfork.org/) using the link provided.
+- All these scripts work on firefox Android too, because it supports extensions.
+
 *OR*
+
 - Install the browser extension, click on new script & copy the script content you into it. Enjoy!
 
 ### Trivia behind the repository name
