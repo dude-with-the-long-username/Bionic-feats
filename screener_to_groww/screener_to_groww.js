@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Screener to groww stock redirector button
 // @namespace    Violentmonkey Scripts
-// @version      1.0
+// @version      1.1
 // @description  Adds a button to redirect from Screener.in to Groww.in for the stock being viewed
 // @author       dude-with-the-long-username
 // @match        https://www.screener.in/company/*
@@ -28,7 +28,8 @@
     img.src = iconUrl;
     redirectButton.appendChild(img);
     var screenerPath = window.location.href.split("/");
-    var stockSymbol = screenerPath[screenerPath.length - 3];  // 3rd last entry in array
+    var companyIndex = screenerPath.indexOf("company"); // finds index of string "company". eg of url: "https://www.screener.in/company/SIGMA/consolidated/"
+    var stockSymbol = screenerPath[companyIndex + 1];  // entry that comes after "company"
     redirectButton.addEventListener ("click", function() {
         window.open("https://groww.in/search?q=" + stockSymbol, "_blank");
     });
