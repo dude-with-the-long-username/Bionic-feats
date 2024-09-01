@@ -38,3 +38,6 @@
     });
     document.body.appendChild(redirectButton);
 })();
+
+// TODO: fix logic for : https://www.flipkart.com/iffalcon-tcl-s44-79-97-cm-32-inch-hd-ready-led-smart-android-tv-metallic-bezel-less-chromecast-built-in/p/itm6d5c5421ddb36?pid=TVSGZK4KHX7TUKZU&lid=LSTTVSGZK4KHX7TUKZUJ7GHWC&marketplace=FLIPKART&q=iffalcon+smart+tv&store=ckf%2Fczl&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&fm=neo%2Fmerchandising&iid=63ae2b19-4833-4bbc-b9f3-e70d567096f9.TVSGZK4KHX7TUKZU.SEARCH&ppt=browse&ppn=browse&ssid=7lztjo12te36mq681725230734729&qH=373d45a20447b46d
+// TODO: fix logic for: https://www.flipkart.com/panasonic-7-1-convertible-true-ai-mode-matter-enabled-1-5-ton-4-star-split-inverter-ac-wi-fi-connect-white/p/itmd7a3c0d767333?pid=ACNGXYZYY5GFJQPP&lid=LSTACNGXYZYY5GFJQPPGM2MXT&marketplace=FLIPKART&store=j9e%2Fabm%2Fc54&srno=b_1_1&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Split%20ACs&fm=organic&iid=en_a58w_BAhJNmhp-flnZgUWnyAIZItLOBHPpUtHIuGpKww5W3_ETIbT-3U04i_UuwFhgza-TK1jFy4DR0UAvg5i04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=pp&ppn=pp&ssid=nd0uqdolwvnboge81725229512167
